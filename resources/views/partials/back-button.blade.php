@@ -1,0 +1,1 @@
+<a href="{{ isset($_SERVER['HTTP_REFERER']) ?  $_SERVER['HTTP_REFERER'] : 'javascript:void(0)' }}" style="cursor: {{ isset($_SERVER['HTTP_REFERER']) ?  'pointer' : 'not-allowed' }}" class="btn bg-white text-secondary" {{ !isset($_SERVER['HTTP_REFERER']) ?  'disabled' : '' }}><span class="material-icons text-secondary mr-2">keyboard_backspace</span>Back</a>
