@@ -1,0 +1,51 @@
+TRUNCATE TABLE awarded_certificates;
+
+TRUNCATE TABLE certificate_rejected_reasons;
+
+TRUNCATE TABLE certificate_statuses;
+
+TRUNCATE TABLE certifications;
+
+TRUNCATE TABLE classes;
+
+TRUNCATE TABLE completed_courses;
+
+TRUNCATE TABLE courses;
+
+TRUNCATE TABLE course_classes;
+
+TRUNCATE TABLE course_prerequisites;
+
+TRUNCATE TABLE credit_types;
+
+TRUNCATE TABLE facilities;
+
+TRUNCATE TABLE facility_types;
+
+TRUNCATE TABLE firefighters;
+
+TRUNCATE TABLE firefighter_certificates;
+
+TRUNCATE TABLE firefighter_courses;
+
+TRUNCATE TABLE fire_departments;
+
+TRUNCATE TABLE fire_department_types;
+
+TRUNCATE TABLE foreign_relations;
+
+TRUNCATE TABLE histories;
+
+TRUNCATE TABLE instructor_prerequisites;
+
+TRUNCATE TABLE invite_firefighters;
+
+TRUNCATE TABLE organizations;
+
+TRUNCATE TABLE prerequisites;
+
+TRUNCATE TABLE rejected_reasons;
+
+TRUNCATE TABLE semesters;
+
+TRUNCATE TABLE semester_courses;
